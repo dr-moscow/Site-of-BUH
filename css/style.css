@@ -116,6 +116,7 @@ body {
 	/* flex-wrap: wrap; */
 	max-width: 493px;
 	max-height: 231px;
+	box-shadow: 12px 9px 17px rgba(255, 255, 255, 0.43);
 	margin-bottom: 26px;
 
 }
@@ -123,12 +124,14 @@ body {
 .second {
 	max-width: 192px;
 	max-height: 165px;
+	box-shadow: 12px 9px 17px rgba(255, 255, 255, 0.43);
 	margin-right: 40px;
 }
 
 .third {
 	max-width: 261px;
 	max-height: 165px;
+	box-shadow: 12px 9px 17px rgba(255, 255, 255, 0.43);
 }
 
 /* удалить до сюда */
@@ -258,8 +261,8 @@ body {
 }
 
 .diiv{
-	
+	margin: 0;
 	max-width: 842px;
 	min-height: 144px;
-	
+	padding: 0;
 }
