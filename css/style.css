@@ -20,6 +20,7 @@ body {
 	/* align-items: flex-start; */
 	margin-top: 20px;
 	border-radius: 5px;
+	margin-bottom: 82px;
 }
 
 .header__block-2 {
@@ -112,8 +113,8 @@ body {
 }
 
 .first {
-	/* display: flex; */
-	/* flex-wrap: wrap; */
+	display: flex;
+	flex-wrap: wrap;
 	max-width: 493px;
 	max-height: 231px;
 	box-shadow: 12px 9px 17px rgba(255, 255, 255, 0.43);
@@ -217,6 +218,19 @@ body {
 }
 
 /* main block */
+.translate__variant-block {
+	/* display: block; */
+	/* flex-wrap: wrap; */
+	max-width: 1400px;
+	margin: 0 auto;
+}
+
+.translate__section {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto;
+}
+
 .translate__variant {
 	display: block;
 	max-width: 1400px;
@@ -244,10 +258,11 @@ body {
 }
 
 .translate__variant-text {
+	box-sizing: border-box;
 	/* display: flex; */
 	/* flex-wrap: wrap; */
-	/* max-width: 842px; */
-	/* min-height: 144px; */
+	max-width: 842px;
+	min-height: 144px;
 	box-sizing: border-box;
 	font-family: 'Manrope';
 	font-style: normal;
@@ -258,11 +273,80 @@ body {
 	padding: 0;
 	text-align: center;
 	color: #000000;
+	margin-bottom: 87px;
 }
 
-.diiv{
+/* section photo */
+.translate__section-photo {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 1217px;
+	margin: 0 auto;
+	justify-content: space-around;
+}
+
+.translate__section-ph1 {
+	box-sizing: border-box;
+	max-width: 300px;
+	max-height: 600px;
+	justify-content: center;
+	align-items: center;
+}
+
+.tr-photo {
+	/* display: flex; */
+	/* flex-wrap: wrap; */
+	box-sizing: border-box;
+	max-width: 300px;
+	max-height: 354px;
+	margin-bottom: 21px;
+}
+
+.translate__header-photo {
+	box-sizing: border-box;
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 36px;
 	margin: 0;
-	max-width: 842px;
-	min-height: 144px;
-	padding: 0;
+	color: #000000;
+	/* text-decoration: none; */
+	/* margin-bottom: 5px; */
+	/* justify-content: center; */
+	text-align: center;
+}
+
+.translate__text {
+	box-sizing: border-box;
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 32px;
+	margin: 0;
+	color: #777777;
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 28px;
+}
+
+.translate__section-item {
+	box-sizing: border-box;
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 36px;
+	/* align-self: center; */
+	color: #0A2640;
+	text-decoration: none;
+}
+
+.translate__text-hr {
+	box-sizing: border-box;
+	width: 164px;
+	height: 1px;
+	margin-left: 0;
+	background-color: #0A2640;
 }
